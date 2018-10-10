@@ -1,10 +1,34 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
+    color: darkred;
 }
 
-p {
+p, li, a {
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background:  #fcfcca;
+}
+
+header, section{
+  text-align: center;
+}
+
+.content{
+  background: white;
+  max-width: 600px;
+  padding: 20px 40px 40px;
+  margin: 20px;
+  margin-top: 50px;
+  border-radius: 10%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.image{
+  max-height: 300px;
+  margin-bottom: 20px;
 }
